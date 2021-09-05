@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio files
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+**.nsight-gfxproj
+**.DotSettings
+**.user
+
+#Binaries
+**/bin/
+bin-int/
