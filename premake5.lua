@@ -18,6 +18,8 @@ workspace "Aura"
 	
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+include "Dependencies.lua"
+
 group "Engine"
 project "Aura"
     location "Aura"
@@ -40,6 +42,7 @@ project "Aura"
 	includedirs
 	{
 		"%{prj.name}/src",
+        "%{IncludeDir.SDL}"
 	}
 
 	filter "system:windows"
@@ -81,7 +84,8 @@ project "Sandbox"
 
 	links 
 	{ 
-		"Aura"
+		"Aura",
+        "%{Library.SDL}"
 	}
 	
 	files 
@@ -97,7 +101,12 @@ project "Sandbox"
 		"%{prj.name}/src",
 		"Aura/src"
 	}
-	
+
+    postbuildcommands 
+    {
+        '{COPY} "%{LibraryDir.SDL}/SDL2.dll" "%{cfg.targetdir}"'
+    }
+
 	filter "system:windows"
 		systemversion "latest"
 				
