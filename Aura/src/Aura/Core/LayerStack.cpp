@@ -1,4 +1,5 @@
 #include "LayerStack.h"
+#include "Layer.h"
 
 namespace Aura
 {
@@ -16,15 +17,18 @@ namespace Aura
 	{
 		layers.emplace(layers.begin() + layerInsertIndex, layer);
 		layerInsertIndex++;
+		layer->OnAttach();
 	}
 
 	void LayerStack::PushOverlay(Layer* overlay)
 	{
 		layers.emplace_back(overlay);
+		overlay->OnAttach();
 	}
 
 	void LayerStack::PopLayer(Layer* layer)
 	{
+		layer->OnDetach();
 		auto it = std::find(layers.begin(), layers.end(), layer);
 		if (it != layers.end())
 		{
@@ -35,6 +39,7 @@ namespace Aura
 
 	void LayerStack::PopOverlay(Layer* overlay)
 	{
+		overlay->OnDetach();
 		auto it = std::find(layers.begin(), layers.end(), overlay);
 		if (it != layers.end())
 			layers.erase(it);

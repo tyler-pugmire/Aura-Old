@@ -1,3 +1,6 @@
 [submodule "Aura/Dependencies/imgui"]
 	path = Aura/Dependencies/imgui
 	url = https://github.com/tyler-pugmire/imgui.git
+[submodule "Aura/Dependencies/spdlog"]
+	path = Aura/Dependencies/spdlog
+	url = https://github.com/gabime/spdlog.git

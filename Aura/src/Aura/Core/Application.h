@@ -1,5 +1,6 @@
 #pragma once
 #include "Window.h"
+#include "LayerStack.h"
 
 #include <string>
 #include <memory>
@@ -18,6 +19,7 @@ namespace Aura
 		bool EnableImGui = true;
 	};
 
+	class ImGuiLayer;
 	class Window;
 	class WindowClosedEvent;
     class Application
@@ -32,15 +34,28 @@ namespace Aura
 
 		virtual void OnInit() {}
 		virtual void OnShutdown();
+		void RenderImGui();
+
+		void PushLayer(Layer* layer);
+		void PushOverlay(Layer* overlay);
+		void PopLayer(Layer* layer);
+		void PopOverlay(Layer* overlay);
 
 		inline const ApplicationSpecification& GetSpecification() const { return appSpec; }
+		inline Window* GetWindow() { return window; }
+
+		static inline Application& Get() { return *Instance; }
 
 	private:
 		ApplicationSpecification appSpec;
 		bool running = true;
 		Window* window;
+		LayerStack layerStack;
+		ImGuiLayer* imGuiLayer;
 
 		bool onWindowClosedEvent(Aura::WindowClosedEvent const& e);
+
+		static Application* Instance;
     };
 
     Application* CreateApplication(int argc, char** argv);

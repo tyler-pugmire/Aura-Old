@@ -7,8 +7,9 @@ namespace Aura
     {
     public:
         WindowClosedEvent() {}
+        unsigned windowId;
 
-        EVENT_CLASS_TYPE(WindowClosed)
-        EVENT_CLASS_CATEGORY(Window)
+        EVENT_CLASS_TYPE(WindowClosed);
+        EVENT_CLASS_CATEGORY(Window);
     };
 }

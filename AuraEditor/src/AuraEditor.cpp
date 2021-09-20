@@ -1,13 +1,13 @@
 #include "Aura.h"
 #include "Aura/EntryPoint.h"
 #include "imgui.h"
-#include "SandboxLayer.h"
+#include "EditorLayer.h"
 #include <iostream>
 
-class SandboxApplication : public Aura::Application
+class AuraEditorApplication : public Aura::Application
 {
 public:
-	SandboxApplication(const Aura::ApplicationSpecification& specification) : Aura::Application(specification)
+	AuraEditorApplication(const Aura::ApplicationSpecification& specification) : Aura::Application(specification)
 	{
 
 	}
@@ -36,7 +36,7 @@ public:
 			std::cout << "BorderlessWindowed" << std::endl;
 			break;
 		}
-		sandboxLayer = new SandboxLayer;
+		sandboxLayer = new EditorLayer;
 		PushLayer(sandboxLayer);
 	}
 
@@ -44,7 +44,7 @@ public:
 	{
 		Aura::Application::OnShutdown();
 	}
-	SandboxLayer* sandboxLayer;
+	EditorLayer* sandboxLayer = nullptr;
 };
 
 Aura::Application* Aura::CreateApplication(int argc, char** argv)
@@ -58,5 +58,5 @@ Aura::Application* Aura::CreateApplication(int argc, char** argv)
 	specification.Resizable = false;
 	specification.WorkingDirectory = "../Sandbox";
 
-	return new SandboxApplication(specification);
+	return new AuraEditorApplication(specification);
 }

@@ -9,7 +9,9 @@ namespace Aura
     enum class EventType
     {
         None,
-        WindowClosed, WindowLostFocus
+        WindowClosed, WindowLostFocus,
+        TextInput, KeyDown, KeyUp,
+        MouseScroll, MouseButtonEvent, MouseButtonDown
     };
 
     enum class EventCategory
