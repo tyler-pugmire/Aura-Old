@@ -4,3 +4,6 @@
 [submodule "Aura/Dependencies/spdlog"]
 	path = Aura/Dependencies/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "Aura/Dependencies/glfw"]
+	path = Aura/Dependencies/glfw
+	url = https://github.com/tyler-pugmire/glfw
