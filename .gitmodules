@@ -7,3 +7,6 @@
 [submodule "Aura/Dependencies/glfw"]
 	path = Aura/Dependencies/glfw
 	url = https://github.com/tyler-pugmire/glfw
+[submodule "Aura/Dependencies/glm"]
+	path = Aura/Dependencies/glm
+	url = https://github.com/g-truc/glm
