@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "Application.h"
 #include "Window.h"
 #include "Events/Event.h"
@@ -19,12 +20,18 @@ namespace Aura
 		if (!specification.WorkingDirectory.empty())
 			std::filesystem::current_path(specification.WorkingDirectory);
 
-		window = (Window::Create(specification.Name, specification.WindowWidth, specification.WindowHeight));
+		WindowSpecification windowSpec;
+		windowSpec.title = specification.Name;
+		windowSpec.width = specification.WindowWidth;
+		windowSpec.height = specification.WindowHeight;
+
+
+		window = Window::Create(windowSpec);
 		window->SetEventCallback([this](Event& e) { OnEvent(e); });
 		window->Init();
-
-		imGuiLayer = ImGuiLayer::Create();
-		layerStack.PushOverlay(imGuiLayer);
+		
+		//imGuiLayer = ImGuiLayer::Create();
+		//layerStack.PushOverlay(imGuiLayer);
 	}
 
 	Application::~Application()
@@ -55,10 +62,10 @@ namespace Aura
 			for (Layer* layer : layerStack)
 				layer->OnUpdate(1.0f / 60.0f);
 
-			glClearColor(.3f, .3f, .3f, 1);
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+			//glClearColor(.3f, .3f, .3f, 1);
+			//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-			RenderImGui();
+			//RenderImGui();
 
 			window->SwapBuffer();
 

@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "Aura/ImGui/ImGuiLayer.h"
 #include "Aura/Platform/OpenGL/OpenGLImGuiLayer.h"
 #include "imgui.h"

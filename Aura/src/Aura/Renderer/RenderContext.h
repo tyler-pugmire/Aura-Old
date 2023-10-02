@@ -1,18 +1,18 @@
 #pragma once
 
-#include <memory>
-struct SDL_Window;
+#include "Aura/Core/Base.h"
+
 namespace Aura
 {
-    class RenderContext
+    class RendererContext : public RefCounted
     {
     public:
-        RenderContext() = default;
-        virtual ~RenderContext() = default;
+        RendererContext() = default;
+        virtual ~RendererContext() = default;
 
         virtual void Init() = 0;
         virtual void SwapBuffers() = 0;
 
-        static RenderContext* Create(SDL_Window* window);
+        static Ref<RendererContext> Create();
     };
 }

@@ -2,7 +2,6 @@
 #include "imgui_internal.h"
 #include "imgui.h"
 #include "Aura/ImGui/ImGuiColors.h"
-#include "SDL/SDL.h"
 #include "Aura/Core/Application.h"
 #include "Aura/Core/Window.h"
 #include "Aura/ImGui/ImGuiUtilites.h"
@@ -63,78 +62,11 @@ void EditorLayer::OnImGuiRender()
 float EditorLayer::DrawTitlebar()
 {
 	const float titlebarHeight = 57.0f;
-	const ImVec2 windowPadding = ImGui::GetCurrentWindow()->WindowPadding;
-
-	ImGui::SetCursorPos(ImVec2(windowPadding.x, windowPadding.y));
-	const ImVec2 titlebarMin = ImGui::GetCursorScreenPos();
-	const ImVec2 titlebarMax = { ImGui::GetCursorScreenPos().x + ImGui::GetWindowWidth() - windowPadding.y * 2.0f,
-								 ImGui::GetCursorScreenPos().y + titlebarHeight };
-	auto* drawList = ImGui::GetWindowDrawList();
-	drawList->AddRectFilled(titlebarMin, titlebarMax, Colors::Theme::titlebar);
-
-	//ImGui::BeginHorizontal("Titlebar", { ImGui::GetWindowWidth() - windowPadding.y * 2.0f, ImGui::GetFrameHeightWithSpacing() });
-	static float moveOffsetX;
-	static float moveOffsetY;
-	const float w = ImGui::GetContentRegionAvail().x;
-	const float buttonsAreaWidth = 94;
-
-
-	auto* rootWindow = ImGui::GetCurrentWindow()->RootWindow;
-	const float windowWidth = (int)rootWindow->RootWindow->Size.x;
-
-	if (ImGui::InvisibleButton("##titleBarDragZone", ImVec2(w - buttonsAreaWidth, titlebarHeight), ImGuiButtonFlags_PressedOnClick))
-	{
-		ImVec2 point = ImGui::GetMousePos();
-		ImRect rect = rootWindow->Rect();
-		// Calculate the difference between the cursor pos and window pos
-		moveOffsetX = point.x - rect.Min.x;
-		moveOffsetY = point.y - rect.Min.y;
-	}
-
-	if (ImGui::IsMouseDoubleClicked(ImGuiMouseButton_Left) && ImGui::IsItemHovered())
-	{
-		auto* window = static_cast<SDL_Window*>(Aura::Application::Get().GetWindow()->GetNativeWindow());
-		bool maximized = SDL_GetWindowFlags(window) & SDL_WINDOW_MAXIMIZED;
-		if (maximized)
-			SDL_RestoreWindow(window);
-		else
-			Aura::Application::Get().GetWindow()->Maximize();
-	}
-	else if (ImGui::IsItemActive())
-	{
-		if (ImGui::IsMouseDragging(ImGuiMouseButton_Left))
-		{
-			auto* window = static_cast<SDL_Window*>(Aura::Application::Get().GetWindow()->GetNativeWindow());
-			bool maximized = SDL_GetWindowFlags(window) & SDL_WINDOW_MAXIMIZED;
-
-			if (maximized)
-			{
-				SDL_RestoreWindow(window);
-
-				int newWidth, newHeight;
-				SDL_GetWindowSize(window, &newWidth, &newHeight);
-				if (windowWidth - (float)newWidth > 0.0f)
-					moveOffsetX *= (float)newWidth / windowWidth;
-			}
-
-			ImVec2 point = ImGui::GetMousePos();
-			SDL_SetWindowPosition(window, point.x - moveOffsetX, point.y - moveOffsetY);
-		}
-	}
-
 
 	return titlebarHeight;
 }
 
 void EditorLayer::HandleManualWindowResize()
 {
-	auto* window = static_cast<SDL_Window*>(Aura::Application::Get().GetWindow()->GetNativeWindow());
-	bool maximized = SDL_GetWindowFlags(window) & SDL_WINDOW_MAXIMIZED;
 
-	ImVec2 newSize, newPosition;
-	if (!maximized && UI::UpdateWindowManualResize(ImGui::GetCurrentWindow(), newSize, newPosition))
-	{
-		SDL_SetWindowPosition(window, newPosition.x, newPosition.y);
-		SDL_SetWindowSize(window, newSize.x, newSize.y);
-	}
 }

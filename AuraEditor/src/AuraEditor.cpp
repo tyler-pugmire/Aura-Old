@@ -24,39 +24,39 @@ public:
 		std::cout << "\tResizable: " << spec.Resizable << std::endl;
 		std::cout << "\tWorkingDirectory: " << spec.WorkingDirectory << std::endl;
 		std::cout << "\tWindowMode: ";
-		switch (spec.WindowMode)
-		{
-		case Aura::WindowMode::Windowed:
-			std::cout << "Windowed" << std::endl;
-			break;
-		case Aura::WindowMode::Fullscreen:
-			std::cout << "Fullscreen" << std::endl;
-			break;
-		case Aura::WindowMode::BorderlessWindowed:
-			std::cout << "BorderlessWindowed" << std::endl;
-			break;
-		}
-		sandboxLayer = new EditorLayer;
-		PushLayer(sandboxLayer);
+		//switch (spec.WindowMode)
+		//{
+		//case Aura::WindowMode::Windowed:
+		//	std::cout << "Windowed" << std::endl;
+		//	break;
+		//case Aura::WindowMode::Fullscreen:
+		//	std::cout << "Fullscreen" << std::endl;
+		//	break;
+		//case Aura::WindowMode::BorderlessWindowed:
+		//	std::cout << "BorderlessWindowed" << std::endl;
+		//	break;
+		//}
+		editorLayer = new EditorLayer;
+		PushLayer(editorLayer);
 	}
 
 	void OnShutdown() override
 	{
 		Aura::Application::OnShutdown();
 	}
-	EditorLayer* sandboxLayer = nullptr;
+	EditorLayer* editorLayer = nullptr;
 };
 
 Aura::Application* Aura::CreateApplication(int argc, char** argv)
 {
 	Aura::ApplicationSpecification specification;
-	specification.Name = "Sandbox";
+	specification.Name = "AuraEditor";
 	specification.WindowWidth = 1280;
 	specification.WindowHeight = 720;
 	specification.VSync = true;
 	specification.StartMaximized = false;
 	specification.Resizable = false;
-	specification.WorkingDirectory = "../Sandbox";
+	specification.WorkingDirectory = "../AuraEditor";
 
 	return new AuraEditorApplication(specification);
 }

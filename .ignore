@@ -1,0 +1,9 @@
+.vscode
+.git
+.cache
+.vs
+bin
+bin-int
+tools
+Aura/Dependencies/
+.cache/

@@ -1,0 +1,655 @@
+[
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"AuraEditor/src/EditorLayer.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"AuraEditor/src\" -I\"Aura/src\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "AuraEditor/src/EditorLayer.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"AuraEditor/src/AuraEditor.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"AuraEditor/src\" -I\"Aura/src\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "AuraEditor/src/AuraEditor.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"Aura/dependencies/Glad/src/glad.c\"  -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/dependencies/Glad/include\"",
+    "file": "Aura/dependencies/Glad/src/glad.c"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/dependencies/ImGui/imgui_demo.cpp\" -std=c++17 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"",
+    "file": "Aura/dependencies/ImGui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/dependencies/ImGui/imgui.cpp\" -std=c++17 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"",
+    "file": "Aura/dependencies/ImGui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/dependencies/ImGui/imgui_widgets.cpp\" -std=c++17 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"",
+    "file": "Aura/dependencies/ImGui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/dependencies/ImGui/imgui_draw.cpp\" -std=c++17 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"",
+    "file": "Aura/dependencies/ImGui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/dependencies/ImGui/imgui_tables.cpp\" -std=c++17 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"",
+    "file": "Aura/dependencies/ImGui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Platform/OpenGL/OpenGLImGuiLayer.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Platform/OpenGL/OpenGLImGuiLayer.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Core/Logger.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Core/Logger.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Renderer/RenderContext.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Renderer/RenderContext.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/ImGui/ImGuiLayer.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/ImGui/ImGuiLayer.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Platform/OpenGL/OpenGLContext.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Platform/OpenGL/OpenGLContext.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Core/Layer.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Core/Layer.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Core/Application.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Core/Application.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/ImGui/ImGuiColors.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/ImGui/ImGuiColors.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/ImGui/ImGuiBackend.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/ImGui/ImGuiBackend.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Core/LayerStack.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Core/LayerStack.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/src/Aura/Core/Window.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_BUILD_DLL\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/src\" -I\"Aura/Dependencies/SDL/include\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/Glad/include\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Aura/src/Aura/Core/Window.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Sandbox/src/Sandbox.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Sandbox/src\" -I\"Aura/src\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Sandbox/src/Sandbox.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Sandbox/src/SandboxLayer.cpp\" -std=c++2b -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DAURA_PLATFORM_WINDOWS\" \"-DAURA_DEBUG\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Sandbox/src\" -I\"Aura/src\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/spdlog/include\"",
+    "file": "Sandbox/src/SandboxLayer.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_win32_directx9/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_win32_directx9/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_dx9.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_dx9.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_dx10.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_dx10.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_win32_directx10/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_win32_directx10/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_win32_directx11/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_win32_directx11/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_dx11.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_dx11.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_win32.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_win32_directx12/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_win32_directx12/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_dx12.cpp\" -std=c++14 -m32 -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-DImTextureID=ImU64\" \"-D_UNICODE\" \"-DUNICODE\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_dx12.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_glfw_opengl2/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/examples/example_glfw_opengl2/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_opengl2.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_opengl2.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_opengl3.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_opengl3.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_glfw_opengl3/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/examples/example_glfw_opengl3/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_glfw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_vulkan.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_vulkan.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_glfw_vulkan/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\" -I\"Aura/Dependencies/imgui/examples/libs/glfw/include\"",
+    "file": "Aura/Dependencies/imgui/examples/example_glfw_vulkan/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_sdl_opengl2/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_sdl_opengl2/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_opengl2.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_opengl2.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_sdl_opengl3/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_sdl_opengl3/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_opengl3.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_opengl3.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_vulkan.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_vulkan.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_sdl_vulkan/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_sdl_vulkan/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_tables.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_sdl.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_draw.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/examples/example_sdl_directx11/main.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/examples/example_sdl_directx11/main.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/backends/imgui_impl_dx11.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/backends/imgui_impl_dx11.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_demo.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "G:/Github/Aura",
+    "command": "\"C:/Users/tyler/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"Aura/Dependencies/imgui/imgui_widgets.cpp\" -std=c++14 -m32 -fsyntax-only \"-D_MT\" \"-D_DLL\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/atlmfc/include\" -isystem\"Visual Studio 2015 installation location could not be detected/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/um\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/8.1/Include/winrt\" -I\"Aura/Dependencies/imgui\" -I\"Aura/Dependencies/imgui/backends\"",
+    "file": "Aura/Dependencies/imgui/imgui_widgets.cpp"
+  }
+]

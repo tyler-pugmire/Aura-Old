@@ -1,32 +1,69 @@
 #pragma once
 #include "Event.h"
+#include <sstream>
 
 namespace Aura
 {
-    class TextInput : public Event
+    class KeyEvent : public Event
     {
     public:
-        TextInput() {}
-        char text[32] = {};
-        EVENT_CLASS_TYPE(TextInput);
-        EVENT_CLASS_CATEGORY(Key);
+        inline KeyCode GetKeyCode() const { return m_key; }
+
+        EVENT_CLASS_CATEGORY(Key)
+    protected:
+        KeyEvent(KeyCode key) : m_key(key) {}
+        KeyCode m_key;
     };
 
-    class KeyDown : public Event
+    class KeyPressedEvent : public KeyEvent
     {
     public:
-        KeyDown() {}
+        KeyPressedEvent(KeyCode key, int repeatCount)
+            : KeyEvent(key), m_repeatCount(repeatCount) {}
 
-        EVENT_CLASS_TYPE(KeyDown)
-            EVENT_CLASS_CATEGORY(Mouse)
+        inline int GetRepeatCount() const { return m_repeatCount; }
+
+        std::string ToString() const override
+        {
+            std::stringstream ss;
+            ss << "KeyPressedEvent: " << m_key << " (" << m_repeatCount << " repeats)";
+            return ss.str();
+        }
+
+        EVENT_CLASS_TYPE(KeyPressed)
+    private:
+        int m_repeatCount;
     };
 
-    class KeyUp : public Event
+    class KeyReleasedEvent : public KeyEvent
     {
     public:
-        KeyUp() {}
+        KeyReleasedEvent(KeyCode key)
+            : KeyEvent(key) {}
 
-        EVENT_CLASS_TYPE(KeyUp)
-            EVENT_CLASS_CATEGORY(Mouse)
+        std::string ToString() const override
+        {
+            std::stringstream ss;
+            ss << "KeyReleasedEvent: " << m_key;
+            return ss.str();
+        }
+
+        EVENT_CLASS_TYPE(KeyReleased)
+    };
+
+    class KeyTypedEvent : public KeyEvent
+    {
+    public:
+        KeyTypedEvent(KeyCode key)
+            : KeyEvent(key) {}
+
+        std::string ToString() const override
+        {
+            std::stringstream ss;
+            ss << "KeyTypedEvent: " << m_key;
+            return ss.str();
+        }
+
+        EVENT_CLASS_TYPE(KeyTyped)
     };
 }

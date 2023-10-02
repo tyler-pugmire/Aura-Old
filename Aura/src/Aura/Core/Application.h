@@ -9,9 +9,9 @@ namespace Aura
 {
 	struct ApplicationSpecification
 	{
-		std::string Name = "Aura";
+		std::string Name = "AuraEditor";
 		uint32_t WindowWidth = 1600, WindowHeight = 900;
-		WindowMode WindowMode = WindowMode::BorderlessWindowed;
+		//WindowMode WindowMode = WindowMode::BorderlessWindowed;
 		bool VSync = true;
 		std::string WorkingDirectory;
 		bool StartMaximized = true;

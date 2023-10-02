@@ -12,3 +12,10 @@
 #Binaries
 **/bin/
 bin-int/
+
+.cache/
+.vscode/
+
+**Makefile**
+
+**.rdbg

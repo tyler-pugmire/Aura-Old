@@ -1,11 +1,12 @@
+#include "pch.h"
 #include "RenderContext.h"
 
-#include "Aura/Platform/OpenGL/OpenGLContext.h"
+#include "Aura/Platform/Vulkan/VulkanRenderContext.h"
 
 namespace Aura
 {
-    RenderContext* RenderContext::Create(SDL_Window* window)
+    Ref<RendererContext> RendererContext::Create()
     {
-        return new OpenGLContext(window);
+        return Ref<VulkanContext>::Create();
     }
 }
